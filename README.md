@@ -18,10 +18,10 @@ The entire goal of this project is to automate as many tasks on neopets as possi
 - Sticky Snowball AB
 - Buried Treasure
 - Trudy's Surprise
+- Stock Buyer
 
 # To do
 
-- Stocks AB
 - Bank Manager
 - Apple Bobbing
 - Anchor Management
