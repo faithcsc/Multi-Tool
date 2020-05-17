@@ -9,7 +9,7 @@ class Stocks:
 
     def Stocks(self, username):
         self.functions.createTaskData('Stocks', username)
-        if time.time() - float(self.functions.lastRun('Stocks', username)) >= 1800:
+        if time.time() - float(self.functions.lastRun('Stocks', username)) >= 86400:
             resp = self.neo.get('stockmarket.phtml?type=list&full=true', 'http://www.neopets.com/stockmarket.phtml?type=buy')
             data = 15
             tryAgain = 15
