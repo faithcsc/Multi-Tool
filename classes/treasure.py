@@ -9,7 +9,7 @@ class BuriedTreasure:
 
     def BuriedTreasure(self, username):
         self.functions.createTaskData('BuriedTreasure', username)
-        if time.time() - float(self.functions.lastRun('BuriedTreasure', username)) >= 86400:
+        if time.time() - float(self.functions.lastRun('BuriedTreasure', username)) >= 10800:
             resp = self.neo.get('pirates/buriedtreasure/buriedtreasure.phtml?', 'https://thedailyneopets.com/dailies')
             if not self.functions.contains(resp.text, 'you have to wait another'):
                 x, y = random.randint(25, 450), random.randint(45, 460)
