@@ -21,4 +21,4 @@ class SDB:
                 arr += 1
             data['checkall'] = 'on'
             self.neo.post('process_quickstock.phtml', data, 'http://www.neopets.com/quickstock.phtml')
-            self.functions.log('SDB: Sent %s items to your SDB' % len(items))
+            self.functions.log('SDB: Sent %s items to your SDB' % results)
