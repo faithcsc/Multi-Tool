@@ -19,6 +19,7 @@ The entire goal of this project is to automate as many tasks on neopets as possi
 - Buried Treasure
 - Trudy's Surprise
 - Stock Buyer
+- Ghoul Catchers
 
 # To do
 
@@ -38,7 +39,6 @@ The entire goal of this project is to automate as many tasks on neopets as possi
 - Lunar Temple
 - Shape Shifter
 - Negg Sweeper
-- Ghoul Catchers
 - Wheel of Excitement
 - Wheel of Mediocrity
 - Wheel of Misfortune
