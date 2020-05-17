@@ -11,7 +11,6 @@ class GhoulCatchers:
         self.s = requests.session()
         self.functions = Functions()
         self.api = 'api.jumpstart.com'
-        self.username = None
         self.userid = None
         self.apitoken = None
         self.username = username
