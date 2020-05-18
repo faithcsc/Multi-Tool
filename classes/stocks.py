@@ -31,4 +31,4 @@ class Stocks:
                         if not self.functions.contains(resp.text, 'You cannot afford'):
                             self.functions.log('Stock Buyer: Purchased 1000 shares of %s for %s' % (stock[0], data))
                     break
-                self.functions.updateLastRun('Stocks', username)
+            self.functions.updateLastRun('Stocks', username)
