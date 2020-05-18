@@ -20,6 +20,8 @@ The entire goal of this project is to automate as many tasks on neopets as possi
 - Trudy's Surprise
 - Stock Buyer
 - Ghoul Catchers
+- Cheat AP
+- Gormball AP
 
 # To do
 
