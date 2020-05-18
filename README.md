@@ -29,6 +29,7 @@ The entire goal of this project is to automate as many tasks on neopets as possi
 - Wheel of Knowledge
 - Wheel of Extravagance
 - Wheel of Monotony
+- Shape Shifter
 
 # To do
 
@@ -46,5 +47,4 @@ The entire goal of this project is to automate as many tasks on neopets as possi
 - Test your Strength
 - Healing Springs
 - Lunar Temple
-- Shape Shifter
 - Negg Sweeper
