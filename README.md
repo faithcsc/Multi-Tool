@@ -23,6 +23,12 @@ The entire goal of this project is to automate as many tasks on neopets as possi
 - Cheat AP
 - Gormball AP
 - Dice a Roo AP
+- Wheel of Excitement
+- Wheel of Mediocrity
+- Wheel of Misfortune
+- Wheel of Knowledge
+- Wheel of Extravagance
+- Wheel of Monotony
 
 # To do
 
@@ -42,9 +48,3 @@ The entire goal of this project is to automate as many tasks on neopets as possi
 - Lunar Temple
 - Shape Shifter
 - Negg Sweeper
-- Wheel of Excitement
-- Wheel of Mediocrity
-- Wheel of Misfortune
-- Wheel of Knowledge
-- Wheel of Extravagance
-- Wheel of Monotony
