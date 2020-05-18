@@ -22,6 +22,7 @@ The entire goal of this project is to automate as many tasks on neopets as possi
 - Ghoul Catchers
 - Cheat AP
 - Gormball AP
+- Dice a Roo AP
 
 # To do
 
