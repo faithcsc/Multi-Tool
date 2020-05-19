@@ -7,8 +7,8 @@ class SnowballAB:
         self.neo = neo
         self.sdb = SDB(self.neo)
         self.functions = Functions()
+        self.BuyDelay = None
         self.getSettings()
-        self.BuyDelay = 1800
 
     def getSettings(self):
         self.BuyDelay = int(self.functions.getSettings('BuyDelay').split(':')[1].strip())
