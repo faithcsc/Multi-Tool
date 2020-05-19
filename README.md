@@ -30,10 +30,10 @@ The entire goal of this project is to automate as many tasks on neopets as possi
 - Wheel of Extravagance
 - Wheel of Monotony
 - Shape Shifter
+- Bank Manager
 
 # To do
 
-- Bank Manager
 - Apple Bobbing
 - Anchor Management
 - Kiko Pop
