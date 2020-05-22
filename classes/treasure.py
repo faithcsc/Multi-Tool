@@ -17,6 +17,6 @@ class BuriedTreasure:
                     resp = self.neo.get('pirates/buriedtreasure/buriedtreasure.phtml?%s,%s' % (x, y), 'http://www.neopets.com/pirates/buriedtreasure/buriedtreasure.phtml?')
                     gamePrize = self.functions.getBetween(resp.text, '<b><center>', '</center></b>')
                     self.functions.log('Buried Treasure: %s' % gamePrize)
-                    self.functions.updateLastRun('BuriedTreasure', username)
             else:
                 self.functions.log('Buried Treasure: Your account is too young to play')
+            self.functions.updateLastRun('BuriedTreasure', username)
