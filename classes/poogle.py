@@ -9,7 +9,7 @@ class PoogleRace:
         self.functions = Functions()
 
     def PoogleRace(self, username):
-        raceTimes = ['00', '15', '30', '45']
+        raceTimes = ['59', '14', '29', '44']
         betTimes = ['11', '26', '41', '56']
         now = datetime.now()
         current_time = now.strftime("%M")
@@ -28,7 +28,8 @@ class PoogleRace:
             for data in raceTimes:
                 if current_time == data:
                     resp = self.neo.get('faerieland/poogleracing.phtml')
-                    if not self.functions.contains(resp.text, 'Care to place a bet?'):
+                    if self.functions.contains(resp.text, 'Please come back when the race starts!!!'):
+                        time.sleep(60)
                         self.neo.post('faerieland/poogleracing.phtml?type=viewrace', {'rand': random.randint(1, 999)}, 'http://www.neopets.com/faerieland/poogleracing.phtml')
                         time.sleep(random.randint(5, 10))
                         resp = self.neo.post('faerieland/poogleracing.phtml', {'type': 'collect'}, 'http://www.neopets.com/faerieland/poogleracing.phtml?type=viewrace')
