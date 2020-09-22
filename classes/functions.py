@@ -28,7 +28,7 @@ class Functions:
 
     def createTaskData(self, task, user):
         if not os.path.exists('data/%s.dat' % user):
-            with open('data/%s.dat' % user) as f:
+            with open('data/%s.dat' % user, 'w') as f:
                 f.write('')
         with open('data/%s.dat' % user, 'r') as f:
             data = f.read()
